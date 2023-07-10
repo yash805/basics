@@ -1,0 +1,405 @@
+*{
+    padding: auto;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.left ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+  }
+
+  #navbar li {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #1a1a1a;
+  }
+  .right {
+   display: flex;
+   align-items: center;
+  }
+
+  .right input{
+   margin-left: 10px;
+   text-align: center;
+  }
+  .right .file{
+    position: absolute;
+    left: 45px;
+  }
+
+  #main{
+    height: 180vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;   
+    align-items: center;
+  }
+
+  .first{
+    margin-top: -400px;
+    margin-left: 100px;   
+    background-color: #fff;
+   border-radius: 10px;   
+  }
+
+  .upper{
+   border-radius: 10px;
+   border: 1px solid silver;
+   margin-top: -1px;
+
+    
+  }
+  .mid{
+    text-align: center;
+
+  }
+  .mid h4{
+   margin-top: 5px;
+  }
+  .mid p{
+    margin-top: -15px;
+    font-size: 12px;
+    color: rgb(192, 192, 192);
+   }
+
+  .img{
+    border:1px solid rgba(192, 192, 192, 0.298);
+    border-radius:50%;
+  text-align: center;
+    width: 30%;
+    height: 50px;
+    margin-left: 5vw;
+    background-color: silver;
+    margin-top: -20px;
+  }
+
+  img{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+  }
+
+  .header1{
+    height: 50px;
+    width: 100%;
+    background: radial-gradient(circle at 30% 107%, #feda75 0%, #fa7e1e 30%, #d62976 60%, #962fbf 90%, #4f5bd5 100%);
+  }
+
+  #hori{
+    margin-top: -10px;
+    width: 100%;
+    height: 1px;
+    background-color: silver;
+  }
+
+  .middle{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .middle .text{
+    padding: 10px;
+  }
+  .middle .texts{
+    padding: 10px;
+  }
+
+  .middle .text p{
+    font-size: 13px;
+    color: silver;
+    margin-top: 0px;
+    margin-bottom: -17px;
+    
+  }
+  .middle .texts p{
+    margin-top: -30px;
+    font-size: 15px;
+    margin-bottom: -17px;
+    
+  }
+  .middle h1{
+    margin-top: -25px;
+    font-size: 20px;
+    color: purple
+  }
+  .middle h2{
+    margin-top: 10px;
+
+    font-size: 20px;
+    color: purple
+  }
+
+  .middles{
+ 
+    padding: 5px;
+  }
+  .middles h5{
+    margin-top:-10px;
+  }
+  .middles p{
+    font-size: 13px;
+    color: silver;
+    margin-top: 0px;
+
+  }
+
+  .upper .items{
+    margin-top:-20px;
+    margin-bottom:-25px;
+    padding: 7px;
+  }
+
+  .lower{
+    border-radius: 10px;
+   border: 1px solid silver;
+   margin-top: 10px;
+   
+  }
+  .list{
+    padding: 7px;
+    margin-bottom: -20px;
+  }
+  .list h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .list li{
+    list-style: none;
+    margin-left: -35px;
+    color: silver;
+  }
+  .list h4{
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    color: purple;
+  }
+
+  .second{
+    margin-top: -930px;
+   margin-left: 20px;   
+    background-color: #fff;
+   border-radius: 10px; 
+   padding: 10px;  
+  }
+
+  .head{
+    display: flex;
+    justify-content: space-between;
+  }
+  .head input{
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    margin-left: 10px;
+    width: 90vh;
+    height: 50px;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+  }
+
+  .icons p{
+    font-size: 13px;
+    margin-top: 25px;
+    margin-left: 5px;
+  }
+
+  .photo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .third{
+    background-color: #fff;
+    margin-left: -615px;
+    margin-top: -370px;
+   
+    
+  }
+
+  .fourth{
+    background-color: #fff;
+    margin-left: -615px;
+   margin-top: 550px;
+  }
+
+  .fourth .mage{
+    margin-top: -20px;
+  }
+
+  .fourth .mage p{
+    font-size: 15px;
+    padding: 5px;
+   
+  }
+    .nav1{
+    display: flex;
+    justify-content: space-between; 
+  }
+  .myntra{
+    display: flex;
+    justify-content: space-between; 
+  }
+  .myntra img{
+    width: 50px;
+  }
+
+  .content h3{
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .content p{
+    margin-top: -15px;
+    font-size: 12px;
+    color: silver;
+
+  }
+
+  .mage img{
+           width: 45vw;
+           height: 40vh;
+  }
+
+  .comment{
+    margin-top: -10px;
+    display: flex;
+  }
+  .comment img{
+    width:15px;
+    height: 15px;
+    margin-left: 5px;
+  }
+  .comment p{
+    margin-left: 10px;
+    font-size: 15px;;
+  }
+
+  #horis{
+      margin-top: -10px;
+      width: 100%;
+      height: 1px;
+      background-color: silver;
+   
+  }
+
+  .like ul{
+    display: flex;
+  margin-left:-40px;
+  }
+
+  .like li{
+    list-style: none;
+    font-weight: 400;
+    margin-left: 20px;
+  }
+  
+  .fifth{
+    margin-top: -350px;
+    margin-left: 20px;   
+    background-color: antiquewhite;
+   border-radius: 10px;   
+  }
+
+  .upp {
+    padding: 5px;
+    border:1px solid rgba(0, 0, 0, 0.176);
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .he{
+    display: flex;
+    justify-content: space-between;
+  }
+  .he h3{
+    font-size: 15px;
+  }
+
+  .li ul{
+    margin-left: -20px;
+    margin-top: 0px;
+  }
+  .li ul li{
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .li ul p{
+    font-size: 11px;
+    color: silver;
+    margin-top: 5px;
+
+  }
+
+  .mi {
+    padding: 5px;
+    border:1px solid rgba(0, 0, 0, 0.176);
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+
+
+  }
+  .low {
+    padding: 5px;
+    border:1px solid rgba(0, 0, 0, 0.176);
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+
+  }
+
+  .img1{
+    display: flex;
+  }
+
+  .unliver h3{
+    margin-bottom: 0px;
+    font-size: 13px;
+  }
+  .unliver p{
+    margin-top:0px;
+    font-size: 10px;
+    color: silver;
+
+  }
+  .img1{
+  margin-top: 10px;
+  }
+  .img1 img{
+    margin-top: 6px;
+  }
+  .unliver input{
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+
